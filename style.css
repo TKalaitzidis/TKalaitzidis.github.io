@@ -1,0 +1,162 @@
+img{
+    background: transparent;  
+    width: 40px;  
+    border-radius: 70%;
+    background-repeat: no-repeat;
+
+}
+
+#boot-override {
+    text-decoration: none;
+    color: black;
+}
+
+@media (height: 1199px) {
+    /* Styles for devices with screen width less than 768px */
+    .separator-1, .separator-2, .separator-3, .separator-4 {
+        color: blue !important;
+    }
+  }
+
+section > div {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+#Tsec-0, #Tsec-1,#Tsec-2, #Tsec-3,#Tsec-4{
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f1de !important;
+}
+
+#resume-i{
+    display: none;
+}
+
+#nrg-i{
+    display: none;
+    padding-bottom: 15px;
+}
+
+#stock-i{
+    display: none;
+}
+
+#soil-i{
+    display: none;
+}
+
+span{
+    margin-bottom: 10px;
+}
+
+h2{
+    padding-bottom: 20px;
+    font-family: Poppins !important;
+    font-weight: 450 !important; 
+    font-size: 110%;
+}
+
+div{
+    height: 40%;
+}
+
+#style-0{
+    margin: 0;
+    background-color: #fc7f6c;
+    padding-bottom: 15px;
+    padding-top: 20;
+    z-index: 1;
+}
+
+#style-1 {
+    margin: 0;
+    background-color: #FED99B;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+#style-2 {
+    margin: 0;
+    background-color: #FED18C;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+#style-3 {
+    margin: 0;
+    background-color: #ffedd6;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+#style-4 {
+    margin: 0; 
+    background-color: #f0a18c;
+    padding-bottom: 15px;
+    z-index: 1;
+}
+
+
+.separator-1{
+    width: 0%;
+    height: 0;
+    border-right: 49vw solid transparent;
+    border-bottom: 1.9vw solid #FED99B;
+    margin-top: -1.9vw;
+    z-index: 0;
+    position: relative;
+}
+.separator-2{
+    width: 0%;
+    height: 0;
+    border-right: 49vw solid transparent;
+    border-bottom: 1.9vw solid #FED18C;
+    margin-top: -1.9vw;
+    z-index: 0;
+    position: relative;
+}
+.separator-3{
+    width: 0%;
+    height: 0;
+    border-right: 49vw solid transparent;
+    border-bottom: 1.9vw solid #ffedd6;
+    margin-top: -1.9vw;
+    z-index: 0;
+    position: relative;
+}
+.separator-4{
+    width: 0%;
+    height: 0;
+    border-right: 49vw solid transparent;
+    border-bottom: 1.9vw solid #f0a18c;
+    margin-top: -1.9vw;
+    z-index: 0;
+    position: relative;
+}
+span{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 104%;
+    
+}
+
+html:not(body) {
+    color: #f4f1de !important;
+    z-index: 9999;
+}
+  
