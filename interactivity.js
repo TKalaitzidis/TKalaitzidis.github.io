@@ -16,12 +16,12 @@ $(document).ready(function () {
 
     $(".col-lg-6[id$='-o']").mouseenter(function () {
         var correspondingId = $(this).attr("id").replace("-o", "-i");
-        $("#" + correspondingId).slideDown(100);
+        $("#" + correspondingId).slideDown(200);
     });
 
     $(".col-lg-6[id$='-o']").mouseleave(function () {
         var correspondingId = $(this).attr("id").replace("-o", "-i");
-        $("#" + correspondingId).slideUp(100);
+        $("#" + correspondingId).slideUp(200);
     });
 });
 
