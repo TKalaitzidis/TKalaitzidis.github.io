@@ -23,6 +23,14 @@ $(document).ready(function () {
         var correspondingId = $(this).attr("id").replace("-o", "-i");
         $("#" + correspondingId).slideUp(200);
     });
+
+    $(".toggle-header").click(function () {
+        var targetId = $(this).data("target");
+    
+        $("html, body").animate({
+            scrollTop: $("#" + targetId).offset().top
+        }, 500); // Adjust the animation duration as needed
+    });
 });
 
 

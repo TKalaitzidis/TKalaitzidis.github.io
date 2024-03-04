@@ -18,6 +18,40 @@ img{
     }
   }
 
+@media screen and (max-width: 430px) {
+    /* Add specific styles for smaller screens */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    menu,
+    nav,
+    section,
+    summary {
+    display: flex !important;
+    }
+    .center{
+        text-align: left;
+    }
+    h2{
+        text-align: left;
+    }
+    img{
+        background: transparent;  
+        width: 40px;  
+        border-radius: 70%;
+        background-repeat: no-repeat;
+    
+    }
+    h2 {
+        white-space: normal; /* Enable text wrapping */
+    }
+}
 section > div {
     display: none;
 }
