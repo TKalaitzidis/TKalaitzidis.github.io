@@ -37,7 +37,7 @@ This **Interactive Resume** project presents **Triantafyllos Kalaitzidis'** pers
 - `index.html`: Main HTML file containing the structure of the interactive resume.
 - `style.css`: CSS file for styling the resume.
 - `interactivity.js`: JavaScript and jQuery script for handling interactivity and toggle functionality.
-- `assets/`: Folder containing project images and logos.
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
