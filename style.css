@@ -12,6 +12,29 @@ img{
 }
 
 
+@media screen and (min-width:2000px) {
+    #responsive{
+        border-right: 30vw solid transparent !important;
+    }
+
+    body{
+        font-size: 200% !important;
+    }
+}
+
+@media screen and (min-width:4000px) {
+    #responsive{
+        border-right: 15vw solid transparent !important;
+    }
+
+    body{
+        font-size: 300% !important;
+    }
+
+    h2{
+        font-size: 200% !important;
+    }
+}
 
 @media screen and (max-width: 430px) {
 
