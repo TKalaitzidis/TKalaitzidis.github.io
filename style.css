@@ -11,36 +11,10 @@ img{
     color: black;
 }
 
-@media (height: 1199px) {
-    /* Styles for devices with screen width less than 768px */
-    .separator-1, .separator-2, .separator-3, .separator-4 {
-        color: blue !important;
-    }
-  }
+
 
 @media screen and (max-width: 430px) {
-    /* Add specific styles for smaller screens */
-    article,
-    aside,
-    details,
-    figcaption,
-    figure,
-    footer,
-    header,
-    hgroup,
-    main,
-    menu,
-    nav,
-    section,
-    summary {
-    display: flex !important;
-    }
-    .center{
-        text-align: left;
-    }
-    h2{
-        text-align: left;
-    }
+
     img{
         background: transparent;  
         width: 40px;  
@@ -50,6 +24,12 @@ img{
     }
     h2 {
         white-space: normal; /* Enable text wrapping */
+    }
+    #style-4{
+        margin-top: 20px;
+    }
+    span{
+        font-size: 90% !important;
     }
 }
 section > div {
